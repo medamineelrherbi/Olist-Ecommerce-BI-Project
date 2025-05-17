@@ -29,7 +29,7 @@ Visualizing the backbone of our data pipeline:
 
 The blueprint of our analytical data store:
 
-*   **Entity Relationship Diagram (ERD):**
+*   **Dimensional Model Diagram :**
       ![Data Warehouse ERD](Screenshots/Datawarehouse.png)
     Star/Hybrid schema illustrating the relationships between fact and dimension tables.
 
