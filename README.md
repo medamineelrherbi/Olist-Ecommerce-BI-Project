@@ -11,18 +11,18 @@ This section provides a quick visual tour of the project's key components: the S
 Visualizing the backbone of our data pipeline:
 
 *   **Overall SSIS Package Structure (Control Flow):**
-    ![SSIS Control Flow Overview](screenshots/SSIS_1.png)
+    ![SSIS Control Flow Overview](Screenshots/SSIS_1.png)
 
 *   **SSIS Package During Execution (Progress/Success):**
-    ![SSIS Package Execution](screenshots/SSIS_2.png)
+    ![SSIS Package Execution](Screenshots/SSIS_2.png)
     A package successfully completing its execution steps.
 
 *   **Data Flow for Loading `FactOrders` (Remplissage):**
-    ![SSIS Data Flow FactOrders](screenshots/SSIS_3.png)
+    ![SSIS Data Flow FactOrders](Screenshots/SSIS_3.png)
     The data flow task responsible for populating the FactOrders table, showing sources, transformations, and destination.
 
 *   **Data Flow for Loading `FactOrderItems` (Remplissage):**
-    ![SSIS Data Flow FactOrderItems](screenshots/SSIS_4.png)
+    ![SSIS Data Flow FactOrderItems](Screenshots/SSIS_4.png)
     The data flow task for populating FactOrderItems, highlighting lookups and data transformations.
 
 ### 2. Data Warehouse Schema (SQL Server)
@@ -30,7 +30,7 @@ Visualizing the backbone of our data pipeline:
 The blueprint of our analytical data store:
 
 *   **Entity Relationship Diagram (ERD):**
-      ![Data Warehouse ERD](screenshots/Datawarehouse.png)
+      ![Data Warehouse ERD](Screenshots/Datawarehouse.png)
     Star/Hybrid schema illustrating the relationships between fact and dimension tables.
 
 ### 3. Power BI Dashboard Highlights
@@ -38,19 +38,19 @@ The blueprint of our analytical data store:
 Bringing data to life with interactive visualizations:
 
 *   **Main Strategic Overview Dashboard:**
-    ![Dashboard Overview](screenshots/PB_1.png)
+    ![Dashboard Overview](Screenshots/PB_1.png)
     High-level KPIs and overall business performance summary.
 
 *   **Product Performance Analysis Dashboard:**
-    ![Dashboard Product Analysis](screenshots/PB_2.png)
+    ![Dashboard Product Analysis](Screenshots/PB_2.png)
     Insights into top-selling products, categories, and revenue trends.
 
 *   **Market / Geographical Insights Dashboard:**
-    ![Dashboard Market Analysis](screenshots/PB_3.png)
+    ![Dashboard Market Analysis](Screenshots/PB_3.png)
     Sales distribution by state, and regional performance.
 
 *   **Customer Review & Sentiment Dashboard:**
-    ![Dashboard Review Analysis](screenshots/PB_4.png)
+    ![Dashboard Review Analysis](Screenshots/PB_4.png)
     Analysis of customer satisfaction, review score distributions, and trends.
 ---
 
@@ -90,7 +90,7 @@ The core objective of this project was to:
 
  2.  **Data Sources:**
     *   The Olist dataset is publicly available. Download it from [https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce]. it is also available in the `data/` directory.
-    ![Database schema](screenshots/Database.png)
+    ![Database schema](Screenshots/Database.png)
     *   Update file paths within SSIS packages (e.g., in Flat File Connection Managers) to point to the location of your CSV files if they differ from the project structure.
 
 3.  **Database Setup (Data Warehouse):**
